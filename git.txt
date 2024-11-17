@@ -1,0 +1,48 @@
+Comandos Bash:
+
+pwd --> mostra onde vc esta
+ls --> lista os objetos do diretório atual
+ls -a --> mostra as pastas ocultas
+cd --> muda de diretório
+cd .. --> volta para o diretorio anterior
+makedir --> cria uma pasta 
+git init . --> inicializa o git
+git status --> ve o estado do projeto no git
+git add --> adiciona um arquivo no git
+git config --global user.name "Nome de usuário"
+git config --global user.email "email de usuario"
+git commit -m "Mensagem" --> Realiza o commite e printa uma mensagem -m "Mensagem"
+git log --> verifica o histórico de logs do git
+git add . --> add todos os arquivos na pasta atual do git para o estado de stage 
+git add * --> add todos os arquivos na pasta atual do git para o estado de stage 
+git reset --> remove os arquivos adicionados
+git reset + id do commit --> volta para o status anterior ao commit
+git branch --> cria a branch do projeto | lista tdas as branchs
+git checkout -b "Nome da branch"--> indica a branch do projeto
+git checkout master --> mostra os arquivos presentes na master
+git checkout "Nome da branch" --> mostra os arquivos presentes na branch 
+git merge "Nome da branch" --> junta os arquivos da branch com o master (se estiver na pasta master)
+git branch -D "Nome da branch" --> deleta  a brandch
+
+
+########################################################################
+obs stages do git  
+
+ustage            |  stage              | staged 
+Antes do git add  | depois do git add   | arquivo commitado 
+				    pronto para o comit
+
+
+#######################################################################
+Branch: Ramificação do projeto 
+
+Ramificação para não ter alteração no arquivo principal..
+usado para testes --> cópia do projeto principal 
+
+
+#########################################################################
+Merge: Junta os arquivos 
+* Ir para o diretorio desejado 
+Ex.  git checkout master
+
+Obs. Boa prática deletar a branch depois do merge 
