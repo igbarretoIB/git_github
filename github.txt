@@ -1,0 +1,59 @@
+############################  GitHub  ############################
+
+Create a new repository on the command line
+
+echo "# teste" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/igbarretoIB/teste.git
+git push -u origin main  --> git push envia as alterações do local para o remoto (mesmo do git clone) main # -> indica a branch que vamos enviar
+git pull traz os arqivos do repositorio do git hub para a sua pasta 
+
+
+
+Push an existing repository from the command line
+
+git remote add origin https://github.com/igbarretoIB/teste.git
+git branch -M main
+git push -u origin main
+git clone "Endereço do git" --> Clona um repositório do git
+
+
+
+##################################################################
+Git ignore e Git keep
+
+### Git ignore
+O git ignore serve para add arquivos que você não quer trackear/versionar com o git 
+ex. bancos de dados fixos... 
+
+Criar na pasta um arquivo chamado .gitignore
+pode add o nome do arquivo como dados.csv
+ou travar um formato específico com um coringa (*) *.csv
+
+
+### Git Keep
+O git Keep permite que você versione uma pasta, mesmo que os arquivos dentro da pasta não estejam sendo
+versionados pelo git
+
+você só precisa criar o arquivo .gitkeep dentro da pasta e salvar (arquivo vazio)
+
+O git cria a pasta dentro do repositorio mas ela vai vazia caso tenha algum arquivo .csv dentro 
+
+
+
+
+
+
+
+##################################################################
+Criar Chave SSH:
+ssh-keygen -t rsa
+
+Recuperar a chave SSH
+cat ~/.ssh/id_rsa.pub
+
+
+##################################################################
