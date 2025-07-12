@@ -1,3 +1,5 @@
 Meu teste git
 
 1- feature1: Feature 1 developed
+
+2- feature2: Feature 2 developed
