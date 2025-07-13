@@ -13,3 +13,5 @@ Meu teste git
 6- feature6: Feature 6 developed
 
 7- feature7: Feature 7 developed
+
+8- feature8: Feature 8 developed
