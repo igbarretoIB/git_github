@@ -7,3 +7,5 @@ Meu teste git
 3- feature3: Feature 3 developed
 
 4- feature4: Feature 4 developed
+
+5- feature5: Feature 5 developed
