@@ -9,3 +9,5 @@ Meu teste git
 4- feature4: Feature 4 developed
 
 5- feature5: Feature 5 developed
+
+6- feature6: Feature 6 developed
